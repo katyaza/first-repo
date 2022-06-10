@@ -1,6 +1,8 @@
 @media (max-width: 1126px){
-    .body{
+    html body{
         overflow-x:hidden;
+    }
+    body{
         min-width: 100vw;
     }
     .agency__title {
