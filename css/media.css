@@ -1,0 +1,716 @@
+@media (max-width: 1126px){
+    .agency__title {
+        font-size: 50px;
+    }
+    .specialization__block_inner {
+        max-width: 330px;
+    }
+    .founders__block-left {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 1052px){
+    .agency__info{
+        left:30%;
+    }
+    .specialization__block{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+    }
+    .specialization__title {
+    font-size: 40px;
+    }
+    .project__container {
+        margin-top: 84px;
+    }
+    .founders__title {
+        font-size: 40px;
+    }
+    .reviews__text-block {
+        max-width: 40%;
+    }
+    .reviews__title {
+        font-size: 40px;
+        line-height: 63px;
+    }
+    .reviews__text {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .reviews__slaider {
+        max-width: 50%;
+        max-height: 20%;
+    }
+    .review__text{
+        font-size: 13px;
+    }
+    .reviews__slaider::before{
+        height: 48px;
+        width: 68px;
+        background-size: contain;
+    }
+    .footer__container{
+        margin-top: 53px;
+    }
+
+}
+@media (max-width: 900px){
+    .menu__item + .menu__item {
+        padding-left: 0px;
+    }
+    .menu{
+        z-index: 4;
+        position: fixed;
+        top:0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #1E2028;
+        padding: 80px 15px 30px 15px;
+        transition:all 0.3s;
+    }
+    .menu__btn,
+    .close-menu__btn{
+        display: flex;
+        z-index: 6;
+        left: 0;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        flex: 0 0 30px;
+        height: 22px;
+    }
+    .menu__btn::after,
+    .menu__btn::before{
+        content: "";
+        background-color: white;
+        height: 2px;
+    }
+    .close-menu__btn::after,
+    .close-menu__btn::before{
+        content: "";
+        background-color: white;
+        height: 2px;
+        transform-origin: 0 0;
+    }
+    .close-menu__btn::after{
+        transform: rotate(-43deg);
+    }
+    .close-menu__btn::before{
+        transform: rotate(43deg);
+    }
+    .menu__btn span{
+        background-color: white;
+        height: 2px;
+    }    
+    .header:target .menu {
+        left: 0;
+    }
+    .menu__list{
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .menu__item{
+        color: white;
+        font-size: 20px;
+        margin: 0px 0px 25px 0px;
+        font-weight: 700;
+    }
+    .menu__item:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .close-menu__btn{
+        display: none;
+    }
+    .header:target .menu__btn {
+        display: none;
+    }
+    .header:target .close-menu__btn{
+        display: flex;
+    }
+    .header__btn{
+        position: absolute;
+        right:10%
+    }
+    .about__title {
+        font-size: 44px;
+    }
+    .about__text-title {
+        font-size: 23px;
+    }
+    .about__text {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .agency__info{
+        left:20%;
+    }
+    .project__container {
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+    .specialization__block_inner{
+        min-height: 300px;
+    }
+    .block__title {
+        margin-top: 80px;
+        font-size: 18px;
+    }
+    .block__text {
+        font-size: 13px;
+    }
+    .project__title {
+        font-size: 40px;
+    }
+    .reviews__adress{
+        margin-top: 94px;
+        margin-bottom: 5px;
+    }
+    .reviews__slaider{
+        height:460px;
+    }
+    .grow-title{
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 60px;
+    }
+    .company__title{
+        font-size: 16px;
+    }
+    .company__link{
+        font-size: 14px;
+    }
+    .support__title{
+        font-size: 16px;
+    }
+    .support__link{
+        font-size: 14px;
+    }
+    .footer__container{
+        column-gap: 20px;
+    }
+}
+
+@media (max-width: 830px){
+    .agency__info{
+        left:15%;
+    }
+    .agency__text {
+        font-size: 17px;
+    }
+    .agency__title {
+        font-size: 45px;
+    }
+    .about__container {
+        margin-top: 0px;
+    }
+    .about__title {
+        font-size: 35px;
+    }
+    .about__text-title {
+        font-size: 23px;
+    }
+    .about__text {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .block__text {
+        font-size: 12px;
+    }
+    .reviews__title {
+        font-size: 30px;
+        line-height: 43px;
+    }
+    .reviews__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .reviews__adress{
+        margin-top: 94px;
+        margin-bottom: 5px;
+    }
+    .reviews__slaider{
+        height:490px;
+    }
+    .slick-dots{
+        bottom:32px;
+    }
+    .founders__container {
+        margin-top: 67px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .achi__block__text{
+        font-size: 15px;
+    }
+    .footer__container{
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 40px;
+    }
+    .touch__input{
+        padding: 10px 5rem 10px 12px;
+    }
+}
+@media (max-width: 730px){
+    .agency__info{
+        left:10%;
+    }
+    .agency__text {
+        font-size: 15px;
+        line-height: 38px;
+    }
+    .agency__title {
+        font-size: 40px;
+        line-height: 80px;
+    }
+    .about__image {
+        padding: 20px 30px 34px 12px;
+    }
+    .about__title {
+        font-size: 30px;
+    }
+    .about__text-title {
+        font-size: 16px;
+    }
+    .about__text {
+        line-height: 20px;
+    }
+    .specialization__block_inner{
+        min-height: 250px;
+    }
+    .block__transition-text {
+        font-size: 12px;
+    }
+    .block__transition{
+        margin-top: 10px;
+    }
+    .founder__position {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .reviews__container {
+        margin-bottom: 40px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .reviews__text-block {
+        max-width: 100%;
+        text-align: center;
+    }
+    .reviews__title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .reviews__text{
+        font-size: 13px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    .reviews__slaider {
+        max-width: 90%;
+        }
+    .achivements__block{
+        padding: 0 30px;
+    }
+    .achi__block__text{
+        font-size: 12px;
+    }
+    .touch__input{
+        padding: 10px 4rem 10px 12px;
+    }
+    .footer__container{
+        column-gap: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .agency__info{
+        left:10%;
+        top: 20%
+    }
+    .agency__text {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .agency__title {
+        font-size: 35px;
+        line-height: 60px;
+    }
+    .agency__container{
+        min-height: 400px;
+    }
+    .about__container {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .about__block {
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    .about__image {
+        padding: 20px 20px 14px 10px;
+    }
+    .about__title {
+        margin-bottom: 8px;
+        font-size: 30px;
+    }
+    .about__text-title {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 5px ;
+    }
+    .specialization__title {
+        font-size: 27px;
+        margin: 20px auto 10px auto;
+        line-height: 50px;
+    }
+    .block__title {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .block__text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .project__container {
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    .project__title-block {
+        margin-bottom: 31px;
+    }
+    .project__title {
+        max-width: 60%;
+        font-size: 30px;
+    }
+    .project__portfolio {
+        column-gap: 10px;
+        row-gap: 15px;
+    }
+    .founders__container {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .founders__title {
+        margin-bottom: 10px;
+	    font-size: 30px;
+    }
+    .founder__name {
+        font-size: 14px;
+    }
+    .founder__position {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .reviews__slaider {
+        max-width: 90%;
+        height: 400px;
+    }
+    .reviews__slaider::before{
+        top:16px;
+        height: 38px;
+        width: 58px;
+        background-size: contain;
+    }
+    .reviews__adress{
+        margin-top: 60px;
+    }
+    .slick-dots{
+        bottom:32px;
+    }
+    .reviews__slaider{
+        padding-left: 26px;
+        padding-right: 10px;
+    }
+    .project__title {
+        font-size: 30px;
+    }
+    .achivements__block{
+        padding: 0 18px;
+    }
+    .achi__block__text{
+        font-size: 11px;
+    }
+    .company__block{
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 20%;
+    }
+    .support__block{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .copyright__block{
+        grid-column: 1;
+        grid-row: 3;
+        padding-bottom: 5%;
+    }
+    .touch__block{
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    .touch__input{
+        padding: 10px 5rem 10px 12px;
+    }
+    .footer__container{
+        column-gap: 10px;
+        row-gap: 20px;
+}
+
+
+
+/*Телефон*/
+
+@media (max-width: 479px){
+    .agency__container{
+        min-height: 300px;
+    }
+    .agency__info{
+        left:6%;
+        top: 12%
+    }
+    .header__logo{
+        font-size: 30px;
+    }
+    .agency__text {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .agency__title {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .header__btn{
+        display: none;
+    }
+    .header__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about__block{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+    .about__image {
+        padding: 0px 20px 14px 0px;
+    }
+    .about__text {
+        margin-top: 10px;
+        line-height: 20px;
+    }
+    .about__text-block{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .project__title {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 21px;
+    }
+    .project__container {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .project__title-block {
+        display: inline-block;
+    }
+    .project__title {
+        max-width: 80%;
+    }
+    .link__text{
+        font-size: 14px;
+    }
+    .project__portfolio {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .founders__container {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .founders__title {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .founder__name {
+        font-size: 12px;
+    }
+    .founder__position {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .reviews__text{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .author__name{
+        font-size: 14px;
+    }
+    .author__work{
+        font-size: 12px;
+    }
+    .reviews__slaider::before{
+        right:16px;
+        height: 18px;
+        width: 38px;
+    }
+    .reviews__adress{
+        margin-top: 40px;
+    }
+    .slick-dots{
+        bottom:12px;
+    }
+    .grow-title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .grow__container{
+        padding-top: 30px;
+    }
+    .grow-achivements{
+        margin-top: 30px;
+    }
+    .achivements__block{
+        padding: 0 10px;
+    }
+    .achi__block__text{
+        font-size: 11px;
+    }
+    .achivements__block + .achivements__block{
+        margin-left: 12px;
+    }
+    .touch__input{
+        padding: 10px 3rem 10px 12px;
+    }
+    .footer__container{
+        column-gap: 5px;
+    }
+    .company__link,
+    .support__link{
+        line-height: 15px;
+    }
+}
+
+
+@media (max-width: 430px){
+    .agency__info{
+        left:3%;
+        top: 12%
+    }
+    .agency__container{
+        min-height: 300px;
+    }
+    .about__title {
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .about__text_container {
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        column-gap: 10px;
+    }
+    .about__image {
+        padding: 0px 0px 4px 0px;
+    }
+    .about__text-title {
+        font-size: 12px;
+    }
+    .about__text {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .block__title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .block__text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .specialization__block_inner {
+        padding-bottom: 10px;
+        padding-left: 5px;
+        margin-bottom: 0px;
+    }
+    .specialization__block{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+    .inner__img {
+        content: "";
+        position: absolute;
+        z-index: 5;
+        top: 25px;
+        left: 10px;
+    }
+    .block__inner {
+        margin-bottom: 10px;
+    }
+    .founder__name {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .founder__position {
+        font-size: 7px;
+        line-height: 9px;
+    }
+    .reviews__slaider {
+        max-width: 95%;
+        height: 370px;
+    }
+    .reviews__slaider::before{
+        right:6px;
+        height: 18px;
+        width: 28px;
+    }
+    .reviews__adress{
+        margin-top: 30px;
+    }
+    .slick-dots{
+        bottom:12px;
+    }
+    .review__text{
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .block__number{
+        font-size: 17px;
+    }
+    .achivements__block{
+        padding: 0 0px;
+    }
+    .achi__block__text{
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+    }
+    .touch__input{
+        padding: 10px 1px 10px 12px;
+    }
+    .footer__container{
+        margin-top:20px;
+    }
+    .company__title{
+        margin-bottom: 10px;
+    }
+    .support__title{
+        margin-bottom: 10px;
+    }
+    .company__block {
+        padding-left: 10%;
+    }
+    .footer__container{
+        column-gap: 0px;
+    }
+
+}
