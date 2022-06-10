@@ -450,10 +450,12 @@
         grid-column: 1;
         grid-row: 3;
         padding-bottom: 5%;
+        padding-left:20px;
     }
     .touch__block{
         grid-column: 1/2;
         grid-row: 2;
+        padding-left:20px;
     }
     .touch__input{
         padding: 10px 5rem 10px 12px;
@@ -712,5 +714,9 @@
     .footer__container{
         column-gap: 0px;
     }
-
+}
+@media (max-width: 320px){
+    .body{
+    min-width: 100vw;
+    }
 }
